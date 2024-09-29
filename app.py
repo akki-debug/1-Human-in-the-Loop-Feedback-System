@@ -6,7 +6,7 @@ from torch.optim import AdamW
 from torch.nn import CrossEntropyLoss
 
 # Load the dataset
-dataset_path = '/content/hormozi_tweets.jsonl'
+dataset_path = 'hormozi_tweets.jsonl'
 df = pd.read_json(dataset_path, lines=True)
 
 # Load GPT-2 model and tokenizer
